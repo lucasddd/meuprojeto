@@ -1,0 +1,19 @@
+{
+    "name": "PPI2",
+    "description": "Descrição do projeto PPI2.",
+    "authors": [
+        {
+            "name": "iftm",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "symfony/http-foundation": "^3.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "meuprojeto\\":"src/"
+        }
+    }
+}
